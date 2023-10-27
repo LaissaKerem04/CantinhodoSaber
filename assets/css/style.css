@@ -125,7 +125,7 @@ h6 {
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -140,7 +140,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 80px;
 }
 
 /**
@@ -197,9 +197,9 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 60px;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 500;
   color: #37423b;
   white-space: nowrap;
@@ -666,16 +666,48 @@ section {
   background: #fff;
   padding: 40px 30px;
   width: 100%;
-  border: 1px solid #eef0ef;
 }
 
-.why-us .icon-boxes .icon-box i {
+.why-us .icon-boxes .icon-box.icon-y i {
   font-size: 32px;
   padding: 18px;
-  color: #5fcf80;
+  color: rgb(249, 186, 38);
   margin-bottom: 30px;
-  background: #ecf9f0;
+  background: rgba(249, 186, 38, 0.3);;
   border-radius: 50px;
+}
+
+.why-us .icon-boxes .icon-box.icon-b i {
+  font-size: 32px;
+  padding: 18px;
+  color: rgb(36, 161, 243);
+  margin-bottom: 30px;
+  background: rgba(36, 161, 243, 0.3);
+  border-radius: 50px;
+}
+
+.why-us .icon-boxes .icon-box.icon-r i {
+  font-size: 32px;
+  padding: 18px;
+  color: rgb(239, 35, 70);
+  margin-bottom: 30px;
+  background:rgba(239, 35, 70, 0.3);
+  border-radius: 50px;
+}
+
+.icon-y{
+  color: rgb(249, 186, 38);
+  background: rgba(249, 186, 38, 0.3);;
+}
+
+.icon-b {
+  color: rgb(36, 161, 243);
+  background: rgba(36, 161, 243, 0.3);
+}
+
+.icon-r {
+  color: rgb(239, 35, 70);
+  background:rgba(239, 35, 70, 0.3);
 }
 
 .why-us .icon-boxes .icon-box h4 {
@@ -701,7 +733,18 @@ section {
   align-items: center;
   padding: 20px;
   transition: 0.3s;
-  border: 1px solid #eef0ef;
+}
+
+.box-yellow {
+  border: 2px solid #F9BA26;
+}
+
+.box-blue {
+  border: 2px solid #24A1F3;
+}
+
+.box-red {
+  border: 2px solid #EF2346;
 }
 
 .features .icon-box i {
@@ -724,11 +767,11 @@ section {
 }
 
 .features .icon-box:hover {
-  border-color: #5fcf80;
+  border-color: #000000;
 }
 
 .features .icon-box:hover h3 a {
-  color: #5fcf80;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
