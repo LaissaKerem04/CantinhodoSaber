@@ -49,10 +49,10 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="about.html">Livros</a></li>
-          <li><a href="courses.html">Livrarias</a></li>
-          <li><a href="trainers.html">Autores</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="cor-r"><a href="#livros" class="cor-r">Livros</a></li>
+          <li class="cor-b"><a href="#livrarias" class="cor-b">Livrarias</a></li>
+          <li class="cor-y"><a href="#autores" class="cor-y">Autores</a></li>
       </nav><!-- .navbar -->
     </div>
   </header><!-- End Header -->
@@ -122,7 +122,11 @@
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       <div class="container" data-aos="fade-up">
-
+        <div class="section-title mt-1">
+          <h2 id="livros">Livros</h2>
+          <p>Livros</p>
+        </div>
+      
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-lg-3 col-md-4">
             <a href="books/amoras.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox details-link" title="Portfolio Details">
@@ -133,16 +137,20 @@
           </a>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box box-yellow">
-              <i class="ri-bar-chart-box-line" style="color: #ffbb2c;"></i>
-              <h3><a href="">Ser o que se é</a></h3>
-            </div>
+            <a href="books/amoras.html">
+              <div class="icon-box box-yellow">
+                <i class="ri-bar-chart-box-line" style="color: #ffbb2c;"></i>
+                <h3>Ser o que se é</h3>
+              </div>
+            </a>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box box-yellow">
-              <i class="ri-calendar-todo-line" style="color: #ffbb2c;"></i>
-              <h3><a href="">Afrofuturo: ancestral do amanhã</a></h3>
-            </div>
+            <a href="">
+              <div class="icon-box box-yellow">
+                <i class="ri-calendar-todo-line" style="color: #ffbb2c;"></i>
+                <h3>Afrofuturo: ancestral do amanhã</h3>
+              </div>
+            </a>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
             <div class="icon-box box-yellow">
@@ -208,7 +216,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Livrarias</h2>
+          <h2 id="livrarias">Livrarias</h2>
           <p>Livrarias</p>
         </div>
 
@@ -299,7 +307,12 @@
 
     <!-- ======= Trainers Section ======= -->
     <section id="trainers" class="trainers">
+
       <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2 id="autores">Autores</h2>
+          <p>Autores</p>
+        </div>
 
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -370,22 +383,20 @@
   <footer id="footer">
     
     <div class="container d-md-flex py-4">
-      
-      <div class="container">
- 
-          <div class="d-flex">
-            <img src="assets/img/govfederal.png" width="180px" alt="">
-          </div>
-    </div>
-      
 
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+      <div>
+        <div class="d-flex">
+          <img src="assets/img/govfederal.png" width="20%" class="mt-2" alt="">
+        </div>
+      </div>
+      
+      <div class=" social-links text-center text-md-right pt-4 pt-md-0">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
+
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>

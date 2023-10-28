@@ -33,6 +33,17 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.cor-b .cor-b:hover {
+  color: rgb(36, 161, 243) !important; 
+}
+.cor-y .cor-y:hover {
+  color: rgb(249, 186, 38) !important;
+}
+.cor-r .cor-r:hover {
+  color: rgb(239, 35, 70) !important;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -402,7 +413,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-img.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -1666,12 +1677,12 @@ section {
   background: #5fcf80;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  padding: 4px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 24px;
+  height: 24px;
   transition: 0.3s;
 }
 
