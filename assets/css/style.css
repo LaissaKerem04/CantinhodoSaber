@@ -1674,7 +1674,6 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
   color: #fff;
   line-height: 1;
   padding: 4px 0;
@@ -1687,7 +1686,5 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3ac162;
-  color: #fff;
   text-decoration: none;
 }
