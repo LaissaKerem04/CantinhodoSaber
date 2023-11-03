@@ -43,6 +43,10 @@ h6 {
   color: rgb(239, 35, 70) !important;
 }
 
+.cor-w, .cor-w:hover {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: underline;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
