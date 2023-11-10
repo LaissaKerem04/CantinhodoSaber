@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html id="home" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Cantinho do Saber - Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+  <!-- =======================================================
+  * Template Name: Mentor
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <!-- <h1 class="logo me-auto"><a href="index.html">Mentor</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li class="cor-r"><a href="#livros" class="cor-r">Livros</a></li>
+          <li class="cor-b"><a href="#livrarias" class="cor-b">Livrarias</a></li>
+          <li class="cor-y"><a href="#autores" class="cor-y">Autores</a></li>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main" class="container custom-main">
+    <div class="mx-0 mx-sm-auto ">
+        <div class="card">
+          <div class="card-body">
+            <div class="text-center">
+              <img src="assets/img/logo.png" width="35%">
+              <p>
+                <strong>Avalie nosso sistema</strong>
+              </p>
+            </div>
+            
+            <hr />
+            
+            <form class="px-4" action="process.php">
+                
+                <p>
+                  o quão satisfeito(a) você está com a experiência geral do site?
+                </p>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="exp" id="exp-1" />
+                <label class="form-check-label" for="exp-1">
+                  Excelente
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="exp" id="exp-2" />
+                <label class="form-check-label" for="exp-2">
+                  Bom
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="exp" id="exp-3" />
+                <label class="form-check-label" for="exp-3">
+                  Mediano
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="exp" id="exp-4" />
+                <label class="form-check-label" for="exp-4">
+                  Ruim
+                </label>
+              </div>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="exp" id="exp-5" />
+                <label class="form-check-label" for="exp-5">
+                  Péssimo
+                </label>
+              </div>
+
+              <hr />
+      
+              <!-- Pergunta 1 -->
+                <div class="mb-3">
+                    <label for="difficulty">Houve alguma dificuldade específica que você encontrou durante a sua visita ao site?</label>
+                    <textarea class="form-control" id="difficulty" name="difficulty" rows="3" maxlength="200" placeholder="Digite aqui "></textarea>
+                </div>
+
+                <!-- Pergunta 2 -->
+                <div class="mb-3">
+                    <label for="visual-appeal">De 1 a 5, quanto você achou que o sistema é visualmente agradável?</label>
+                    <select class="form-select" id="visual-appeal" name="visual-appeal">
+                    <option value="1">1 - Muito ruim</option>
+                    <option value="2">2 - Ruim</option>
+                    <option value="3">3 - Médio</option>
+                    <option value="4">4 - Bom</option>
+                    <option value="5">5 - Muito bom</option>
+                    </select>
+                </div>
+
+                <hr />
+                    
+                <!-- Pergunta 3 -->
+                <div class="mb-3">
+                    <label for="site-objective">Você compreendeu o objetivo do site? Descreva-o abaixo.</label>
+                    <textarea class="form-control" id="site-objective" name="site-objective" rows="3" maxlength="200" placeholder="Digite aqui"></textarea>
+                </div>
+
+                <hr />
+                    
+                <!-- Pergunta 4 -->
+                <div class="mb-3">
+                    <label>Recomendaria nosso site a outras pessoas?</label>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="recommendation" id="recommendation-yes" value="yes">
+                    <label class="form-check-label" for="recommendation-yes">Sim</label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="recommendation" id="recommendation-no" value="no">
+                    <label class="form-check-label" for="recommendation-no">Não</label>
+                    </div>
+                </div>
+
+                <hr />
+                    
+                <!-- Pergunta 5 -->
+                <div class="mb-3">
+                    <label>Qual dos conteúdos lhe parece mais útil?</label>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="most-useful" id="most-useful-books" value="books">
+                    <label class="form-check-label" for="most-useful-books">Os livros recomendados</label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="most-useful" id="most-useful-bookstores" value="bookstores">
+                    <label class="form-check-label" for="most-useful-bookstores">As livrarias sugeridas</label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="most-useful" id="most-useful-authors" value="authors">
+                    <label class="form-check-label" for="most-useful-authors">Os autores indicados</label>
+                    </div>
+                </div>
+
+                <hr />
+                    
+                <!-- Pergunta 6 -->
+                <div class="mb-3">
+                    <label for="suggestions">Existe alguma sugestão específica que você gostaria de compartilhar para melhorarmos a sua experiência no site?</label>
+                    <textarea class="form-control" id="suggestions" name="suggestions" rows="3" maxlength="200" placeholder="Digite aqui (limite de 200 caracteres)"></textarea>
+                </div>
+                
+            </div>
+            <div class="card-footer text-end">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+            </div>
+        </div>
+            </form>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    
+    <div class="container d-md-flex py-4">
+
+      <div>
+        <div class="d-flex">
+          <img src="assets/img/patrocinio.png" class="mt-2" alt="">
+        </div>
+      </div>
+      
+      <div class=" social-links text-center text-md-right pt-4 pt-md-0">
+        <a target="_blank" href="https://twitter.com/CharlonFernand3" class="twitter port-r"><i class="bx bxl-twitter"></i></a>
+        <a target="_blank" href="https://www.facebook.com/laissa.kerem.79" class="facebook port-b"><i class="bx bxl-facebook"></i></a>
+        <a target="_blank" href="https://www.instagram.com/evellyn_l.u.a/" class="instagram port-y"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

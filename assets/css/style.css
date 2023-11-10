@@ -48,6 +48,29 @@ h6 {
   text-decoration: underline;
 }
 
+.custom-main {
+  width: 50%;
+  margin: 0 auto; 
+  padding-top: 8%;
+  padding-bottom: 1%;
+}
+
+
+input[type="radio"][id="exp-1"]:checked, input[type="radio"][id="exp-2"]:checked, input[type="radio"][id="recommendation-yes"]:checked {
+  background-color: green;
+  border-color: green;
+}
+
+input[type="radio"][id="exp-3"]:checked {
+  background-color: yellow;
+  border-color: yellow;
+}
+
+input[type="radio"][id="exp-4"]:checked, input[type="radio"][id="exp-5"]:checked {
+  background-color: red;
+  border-color: red;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
