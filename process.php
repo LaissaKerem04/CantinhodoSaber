@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // }
 
     if ($result) {
-        echo "Feedback enviado com sucesso!";
+        header('location: /fin.html');
     } else {
         echo "Erro ao enviar feedback";
     }

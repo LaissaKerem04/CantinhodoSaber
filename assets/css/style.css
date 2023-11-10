@@ -55,6 +55,30 @@ h6 {
   padding-bottom: 1%;
 }
 
+.custom-fim {
+  width: 40%;
+  margin: 0 auto; 
+  padding-top: 16%;
+  padding-bottom: 16%;
+}
+
+.card-form {
+  border-radius: 100px 100px 0px 0px;
+}
+
+.title-card{
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.text-card-fim {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.fim-btn {
+  margin: 0px !important;
+}
 
 input[type="radio"][id="exp-1"]:checked, input[type="radio"][id="exp-2"]:checked, input[type="radio"][id="recommendation-yes"]:checked {
   background-color: green;
