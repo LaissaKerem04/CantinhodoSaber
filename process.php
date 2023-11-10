@@ -1,12 +1,14 @@
 <?php
 
-$dbPath = "sqlte.db";
+$dbPath = "sqlite.db";
 $conn = new SQLite3($dbPath);
 
 // Verificar a conexão
-if (!$conn) {
-    die("Conexão falhou");
-}
+// if (!$conn) {
+//     die("Conexão falhou");
+// } else {
+//     echo "Conexão bem-sucedida";
+// }
 
 // Verificar se o formulário foi enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -21,8 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $suggestions = $_POST["suggestions"];
 
     // Preparar e executar a declaração SQL para inserir dados no banco de dados
-    $stmt = $conn->prepare("INSERT INTO feedback (exp, difficulty, visual_appeal, site_objective, recommendation, most_useful, suggestions) VALUES (:exp, :difficulty, :visual_appeal, :site_objective, :recommendation, :most_useful, :suggestions)");
+    $stmt = $conn->prepare("INSERT INTO feedback_CdS (exp, difficulty, visual_appeal, site_objective, recommendation, most_useful, suggestions) VALUES (:exp, :difficulty, :visual_appeal, :site_objective, :recommendation, :most_useful, :suggestions)");
     
+
     // Vincular parâmetros
     $stmt->bindParam(':exp', $exp, SQLITE3_INTEGER);
     $stmt->bindParam(':difficulty', $difficulty, SQLITE3_TEXT);
@@ -34,6 +37,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Executar a declaração
     $result = $stmt->execute();
+
+    // if (!$result) {
+    //     die("Erro ao executar a declaração: " . $stmt->lastErrorMsg());
+    // }
 
     if ($result) {
         echo "Feedback enviado com sucesso!";

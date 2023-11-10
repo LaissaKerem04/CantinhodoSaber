@@ -66,7 +66,7 @@ input[type="radio"][id="exp-3"]:checked {
   border-color: yellow;
 }
 
-input[type="radio"][id="exp-4"]:checked, input[type="radio"][id="exp-5"]:checked {
+input[type="radio"][id="exp-4"]:checked, input[type="radio"][id="exp-5"]:checked, input[type="radio"][id="recommendation-no"]:checked {
   background-color: red;
   border-color: red;
 }
@@ -185,14 +185,14 @@ input[type="radio"][id="exp-4"]:checked, input[type="radio"][id="exp-5"]:checked
 * Get Startet Button 
 */
 .get-started-btn {
-  margin-left: 22px;
+  margin-left: 62px;
   background: #5fcf80;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
 }
 
@@ -506,18 +506,11 @@ input[type="radio"][id="exp-4"]:checked, input[type="radio"][id="exp-5"]:checked
 }
 
 @media (max-width: 768px) {
-  #hero {
-    height: 100vh;
-  }
-
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
+  #hero , #hero h1, #hero h2 {
+    display: none;
+    background: none;
+    width: 0%;
+    height: 0%;
   }
 }
 

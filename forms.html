@@ -75,37 +75,37 @@
             
             <hr />
             
-            <form class="px-4" action="process.php">
+            <form class="px-4" method="post" action="process.php">
                 
                 <p>
                   o quão satisfeito(a) você está com a experiência geral do site?
                 </p>
               <div class="form-check mb-2">
-                <input class="form-check-input" type="radio" name="exp" id="exp-1" />
+                <input class="form-check-input" type="radio" name="exp" id="exp-1" value="5"/>
                 <label class="form-check-label" for="exp-1">
                   Excelente
                 </label>
               </div>
               <div class="form-check mb-2">
-                <input class="form-check-input" type="radio" name="exp" id="exp-2" />
+                <input class="form-check-input" type="radio" name="exp" id="exp-2" value="4"/>
                 <label class="form-check-label" for="exp-2">
                   Bom
                 </label>
               </div>
               <div class="form-check mb-2">
-                <input class="form-check-input" type="radio" name="exp" id="exp-3" />
+                <input class="form-check-input" type="radio" name="exp" id="exp-3" value="3"/>
                 <label class="form-check-label" for="exp-3">
                   Mediano
                 </label>
               </div>
               <div class="form-check mb-2">
-                <input class="form-check-input" type="radio" name="exp" id="exp-4" />
+                <input class="form-check-input" type="radio" name="exp" id="exp-4" value="2"/>
                 <label class="form-check-label" for="exp-4">
                   Ruim
                 </label>
               </div>
               <div class="form-check mb-2">
-                <input class="form-check-input" type="radio" name="exp" id="exp-5" />
+                <input class="form-check-input" type="radio" name="exp" id="exp-5" value="1"/>
                 <label class="form-check-label" for="exp-5">
                   Péssimo
                 </label>
@@ -123,11 +123,11 @@
                 <div class="mb-3">
                     <label for="visual-appeal">De 1 a 5, quanto você achou que o sistema é visualmente agradável?</label>
                     <select class="form-select" id="visual-appeal" name="visual-appeal">
-                    <option value="1">1 - Muito ruim</option>
-                    <option value="2">2 - Ruim</option>
-                    <option value="3">3 - Médio</option>
-                    <option value="4">4 - Bom</option>
-                    <option value="5">5 - Muito bom</option>
+                      <option value="5">5 - Muito bom</option>
+                      <option value="4">4 - Bom</option>
+                      <option value="3">3 - Médio</option>
+                      <option value="2">2 - Ruim</option>
+                      <option value="1">1 - Muito ruim</option>
                     </select>
                 </div>
 
