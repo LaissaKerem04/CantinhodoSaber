@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // }
 
     if ($result) {
-        header('location: /fin.html');
+        header('location: /Info2v/CantinhodoSaber/fin.html');
     } else {
         echo "Erro ao enviar feedback";
     }

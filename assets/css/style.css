@@ -49,10 +49,21 @@ h6 {
 }
 
 .custom-main {
-  width: 50%;
+  width: 60%;
   margin: 0 auto; 
-  padding-top: 8%;
+  padding-top: 4%;
   padding-bottom: 1%;
+}
+
+.form-main{
+  margin-top: 6%;
+}
+
+@media (max-width: 768px) {
+  .custom-main {
+    padding-top: 25%;
+    width: 80%;
+  }
 }
 
 .custom-fim {
