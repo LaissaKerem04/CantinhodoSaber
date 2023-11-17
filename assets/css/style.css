@@ -227,7 +227,7 @@ input[type="radio"][id="exp-4"]:checked, input[type="radio"][id="exp-5"]:checked
 
 @media (max-width: 768px) {
   .get-started-btn {
-    margin: 0 70% 0 0;
+    margin: 0 15px 0 0;
     padding: 6px 18px;
   }
 }
